@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ddd9a545874701109536ca67dabb35ba</sp_column>
+        <sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:08:03</sys_created_on>
+        <sys_id>4ee9e145874701109536ca67dabb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sp_instance_menu_4ee9e145874701109536ca67dabb35e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:08:03</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=4ee9e145874701109536ca67dabb35e1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sp_instance_menu_4ee9e145874701109536ca67dabb35e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">ddd9a545874701109536ca67dabb35ba</sp_column><sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-22 09:08:03</sys_created_on><sys_id>4ee9e145874701109536ca67dabb35e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>sp_instance_menu_4ee9e145874701109536ca67dabb35e1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-22 09:08:03</sys_updated_on><title/><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=4ee9e145874701109536ca67dabb35e1"/></record_update>]]></payload>
+        <payload_hash>-1708968684</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:08:04</sys_created_on>
+        <sys_id>42e9e145874701109536ca67dabb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1805087453e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:08:04</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>8ae9e1455247011058bbe821742dcfe3</update_guid>
+        <update_guid_history>8ae9e1455247011058bbe821742dcfe3:-1708968684</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a3e9e545874701109536ca67dabb35e5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:08:10</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>9689d4c376174703a059accf387f64d1</sys_id>
+        <sys_metadata>4ee9e145874701109536ca67dabb35e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_4ee9e145874701109536ca67dabb35e1</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_4ee9e145874701109536ca67dabb35e1">42e9e145874701109536ca67dabb35e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:08:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

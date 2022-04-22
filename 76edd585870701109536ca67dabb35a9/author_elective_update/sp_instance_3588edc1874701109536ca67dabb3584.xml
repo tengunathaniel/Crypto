@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">7188edc1874701109536ca67dabb3580</sp_column>
+        <sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:02:02</sys_created_on>
+        <sys_id>3588edc1874701109536ca67dabb3584</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sp_instance_3588edc1874701109536ca67dabb3584</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:04:07</sys_updated_on>
+        <title>My Approvals</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3588edc1874701109536ca67dabb3584"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sp_instance_3588edc1874701109536ca67dabb3584</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;7188edc1874701109536ca67dabb3580&lt;/sp_column&gt;&lt;sp_widget display_value="Approvals"&gt;f37aa302cb70020000f8d856634c9cfc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-22 09:02:02&lt;/sys_created_on&gt;&lt;sys_id&gt;3588edc1874701109536ca67dabb3584&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Approvals&lt;/sys_name&gt;&lt;sys_package display_value="Crypto" source="x_364029_crypto"&gt;76edd585870701109536ca67dabb35a9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Crypto"&gt;76edd585870701109536ca67dabb35a9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_3588edc1874701109536ca67dabb3584&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-22 09:04:07&lt;/sys_updated_on&gt;&lt;title&gt;My Approvals&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3588edc1874701109536ca67dabb3584"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1525433805</payload_hash>
+        <record_name>My Approvals</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:04:07</sys_created_on>
+        <sys_id>10092905874701109536ca67dabb3553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1805083a8710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:04:07</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>58092905754701107b2cd8492fe45652</update_guid>
+        <update_guid_history>58092905754701107b2cd8492fe45652:1525433805,7988edc1f6470110e3052f9746165985:398429836</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Approvals">02392d05874701109536ca67dabb35ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:05:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>734379b1e72c44c09bcf3a8d1338e709</sys_id>
+        <sys_metadata>3588edc1874701109536ca67dabb3584</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sp_instance_3588edc1874701109536ca67dabb3584</sys_update_name>
+        <sys_update_version display_value="sp_instance_3588edc1874701109536ca67dabb3584">10092905874701109536ca67dabb3553</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:05:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Bitcoin">782e1d49870701109536ca67dabb356e</sc_cat_item>
+        <sc_category display_value="Crypto">d74f21c9874701109536ca67dabb35cd</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:32:15</sys_created_on>
+        <sys_id>107fe1c9874701109536ca67dabb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Crypto.Bitcoin</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sc_cat_item_category_107fe1c9874701109536ca67dabb355f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:32:15</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sc_cat_item_category_107fe1c9874701109536ca67dabb355f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Bitcoin">782e1d49870701109536ca67dabb356e</sc_cat_item><sc_category display_value="Crypto">d74f21c9874701109536ca67dabb35cd</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-22 09:32:15</sys_created_on><sys_id>107fe1c9874701109536ca67dabb355f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Crypto.Bitcoin</sys_name><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>sc_cat_item_category_107fe1c9874701109536ca67dabb355f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-22 09:32:15</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1053774179</payload_hash>
+        <record_name>Crypto.Bitcoin</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:32:15</sys_created_on>
+        <sys_id>187fe1c9874701109536ca67dabb3562</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180509d6aef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:32:15</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>507fe1c913470110d49f8348c65b5a62</update_guid>
+        <update_guid_history>507fe1c913470110d49f8348c65b5a62:1053774179</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Crypto.Bitcoin">0e70f50d874701109536ca67dabb3528</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-04-22 09:36:44</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>02cabcf5338944fc80c2398d770658a4</sys_id>
+        <sys_metadata>107fe1c9874701109536ca67dabb355f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Crypto.Bitcoin</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_107fe1c9874701109536ca67dabb355f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_107fe1c9874701109536ca67dabb355f">187fe1c9874701109536ca67dabb3562</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:36:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

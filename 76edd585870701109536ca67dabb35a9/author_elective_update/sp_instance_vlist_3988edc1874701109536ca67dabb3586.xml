@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>short_description</display_field>
+        <field_list/>
+        <filter table="incident">opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^active=true^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>3</order>
+        <order_by>sys_updated_on</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">7188edc1874701109536ca67dabb3580</sp_column>
+        <sp_page display_value="ticket">84af292247132100ba13a5554ee4909e</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:02:02</sys_created_on>
+        <sys_id>3988edc1874701109536ca67dabb3586</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Open Incidents</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sp_instance_vlist_3988edc1874701109536ca67dabb3586</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:04:07</sys_updated_on>
+        <table>incident</table>
+        <title>My Open Incidents</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"displayValue": false,
+		"value": false
+	},
+	"image_field": {
+		"value": null,
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,sys_updated_on",
+		"displayValue": "number,sys_updated_on"
+	},
+	"panel_body_height": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"displayValue": true,
+		"value": true
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=3988edc1874701109536ca67dabb3586"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sp_instance_vlist_3988edc1874701109536ca67dabb3586</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;short_description&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="incident"&gt;opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^active=true^EQ&lt;item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;maximum_entries&gt;20&lt;/maximum_entries&gt;&lt;order&gt;3&lt;/order&gt;&lt;order_by&gt;sys_updated_on&lt;/order_by&gt;&lt;order_direction&gt;desc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;7188edc1874701109536ca67dabb3580&lt;/sp_column&gt;&lt;sp_page display_value="ticket"&gt;84af292247132100ba13a5554ee4909e&lt;/sp_page&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-22 09:02:02&lt;/sys_created_on&gt;&lt;sys_id&gt;3988edc1874701109536ca67dabb3586&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Open Incidents&lt;/sys_name&gt;&lt;sys_package display_value="Crypto" source="x_364029_crypto"&gt;76edd585870701109536ca67dabb35a9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Crypto"&gt;76edd585870701109536ca67dabb35a9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_3988edc1874701109536ca67dabb3586&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-22 09:04:07&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;title&gt;My Open Incidents&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"displayValue": false,
+		"value": false
+	},
+	"image_field": {
+		"value": null,
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,sys_updated_on",
+		"displayValue": "number,sys_updated_on"
+	},
+	"panel_body_height": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"displayValue": true,
+		"value": true
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3988edc1874701109536ca67dabb3586"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>306419307</payload_hash>
+        <record_name>My Open Incidents</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:04:07</sys_created_on>
+        <sys_id>1c092905874701109536ca67dabb3557</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1805083a8cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:04:07</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>54092905d0470110f5d4a4324a8e7957</update_guid>
+        <update_guid_history>54092905d0470110f5d4a4324a8e7957:306419307,3d88edc18e4701108ad2a31f2310a088:1920147690</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Open Incidents">52392d05874701109536ca67dabb35b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 09:05:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>2a25228d175e4260ace3793bf9ccab51</sys_id>
+        <sys_metadata>3988edc1874701109536ca67dabb3586</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Open Incidents</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_3988edc1874701109536ca67dabb3586</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_3988edc1874701109536ca67dabb3586">1c092905874701109536ca67dabb3557</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:05:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
