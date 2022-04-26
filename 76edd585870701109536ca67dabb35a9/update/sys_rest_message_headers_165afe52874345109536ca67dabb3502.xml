@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>X-CMC_PRO_API_KEY</name>
+        <rest_message display_value="MessagesToCMC">4d0a3a56874345109536ca67dabb35d2</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 12:13:13</sys_created_on>
+        <sys_id>165afe52874345109536ca67dabb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>X-CMC_PRO_API_KEY</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sys_rest_message_headers_165afe52874345109536ca67dabb3502</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 12:13:13</sys_updated_on>
+        <value>c78250b7-7d88-4c4b-98be-2a989354157c</value>
+    </sys_rest_message_headers>
+</record_update>

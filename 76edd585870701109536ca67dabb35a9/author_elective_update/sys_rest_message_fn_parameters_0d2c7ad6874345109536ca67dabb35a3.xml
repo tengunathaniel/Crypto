@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="DELETE">
+        <name>convert</name>
+        <rest_message_function display_value="Default GET">395a76d2874345109536ca67dabb35c9</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 12:19:56</sys_created_on>
+        <sys_id>0d2c7ad6874345109536ca67dabb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>convert</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_0d2c7ad6874345109536ca67dabb35a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 12:19:56</sys_updated_on>
+        <type>string</type>
+        <value>USD</value>
+    </sys_rest_message_fn_parameters>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sys_rest_message_fn_parameters_0d2c7ad6874345109536ca67dabb35a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>convert</name><rest_message_function display_value="Default GET">395a76d2874345109536ca67dabb35c9</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-26 12:19:56</sys_created_on><sys_id>0d2c7ad6874345109536ca67dabb35a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>convert</sys_name><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>sys_rest_message_fn_parameters_0d2c7ad6874345109536ca67dabb35a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-26 12:19:56</sys_updated_on><type>string</type><value>USD</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+        <payload_hash>1282592122</payload_hash>
+        <record_name>convert</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 12:19:56</sys_created_on>
+        <sys_id>6f2cbad6874345109536ca67dabb3546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18065d060390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 12:19:56</sys_updated_on>
+        <type>Variable Substitutions</type>
+        <update_guid>a72cbad686434510eb0a7b8fa1afe346</update_guid>
+        <update_guid_history>a72cbad686434510eb0a7b8fa1afe346:1282592122</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 12:21:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_parameters">sys_rest_message_fn_parameters</sys_db_object>
+        <sys_id>0c0fc0258d8244d99fa4df0c351141d1</sys_id>
+        <sys_metadata>0d2c7ad6874345109536ca67dabb35a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>convert</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent display_value="GetLatestPrices">395a76d2874345109536ca67dabb35c9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_parameters_0d2c7ad6874345109536ca67dabb35a3</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_parameters_0d2c7ad6874345109536ca67dabb35a3">6f2cbad6874345109536ca67dabb3546</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 12:21:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

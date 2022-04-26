@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE">
+        <name>convert</name>
+        <order>300</order>
+        <rest_message_function display_value="GetLatestPrices">395a76d2874345109536ca67dabb35c9</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 12:51:36</sys_created_on>
+        <sys_id>5613435a874345109536ca67dabb359e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>convert</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_5613435a874345109536ca67dabb359e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 12:51:36</sys_updated_on>
+        <value>${testConvert}</value>
+    </sys_rest_message_fn_param_defs>
+</record_update>
