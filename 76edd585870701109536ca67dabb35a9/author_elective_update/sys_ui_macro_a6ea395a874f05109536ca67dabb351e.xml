@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>Numeric Slider</name>
+        <scoped_name>x_364029_crypto_Numeric Slider</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 07:35:01</sys_created_on>
+        <sys_id>a6ea395a874f05109536ca67dabb351e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Numeric Slider</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sys_ui_macro_a6ea395a874f05109536ca67dabb351e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 07:46:04</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<p>hello</p>
+	<!--
+	<div>
+		<input type="range" list="tickmarks" />
+		<datalist id="tickmarks">
+			<option value="0" label="0%"></option>
+			<option value="10"></option>
+			<option value="20"></option>
+			<option value="30"></option>
+			<option value="40"></option>
+			<option value="50" label="50%"></option>
+			<option value="60"></option>
+			<option value="70"></option>
+			<option value="80"></option>
+			<option value="90"></option>
+			<option value="100" label="100%"></option>
+		</datalist>
+	</div>
+	-->
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sys_ui_macro_a6ea395a874f05109536ca67dabb351e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;Numeric Slider&lt;/name&gt;&lt;scoped_name&gt;x_364029_crypto_Numeric Slider&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-26 07:35:01&lt;/sys_created_on&gt;&lt;sys_id&gt;a6ea395a874f05109536ca67dabb351e&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Numeric Slider&lt;/sys_name&gt;&lt;sys_package display_value="Crypto" source="x_364029_crypto"&gt;76edd585870701109536ca67dabb35a9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Crypto"&gt;76edd585870701109536ca67dabb35a9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_a6ea395a874f05109536ca67dabb351e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-26 07:46:04&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;p&gt;hello&lt;/p&gt;
+	&lt;!--
+	&lt;div&gt;
+		&lt;input type="range" list="tickmarks" /&gt;
+		&lt;datalist id="tickmarks"&gt;
+			&lt;option value="0" label="0%"&gt;&lt;/option&gt;
+			&lt;option value="10"&gt;&lt;/option&gt;
+			&lt;option value="20"&gt;&lt;/option&gt;
+			&lt;option value="30"&gt;&lt;/option&gt;
+			&lt;option value="40"&gt;&lt;/option&gt;
+			&lt;option value="50" label="50%"&gt;&lt;/option&gt;
+			&lt;option value="60"&gt;&lt;/option&gt;
+			&lt;option value="70"&gt;&lt;/option&gt;
+			&lt;option value="80"&gt;&lt;/option&gt;
+			&lt;option value="90"&gt;&lt;/option&gt;
+			&lt;option value="100" label="100%"&gt;&lt;/option&gt;
+		&lt;/datalist&gt;
+	&lt;/div&gt;
+	--&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1748145066</payload_hash>
+        <record_name>Numeric Slider</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 07:46:05</sys_created_on>
+        <sys_id>8c8df99a874f05109536ca67dabb3509</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18064d5a6600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 07:46:05</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>848df99ac64f0510344626394b8e3909</update_guid>
+        <update_guid_history>848df99ac64f0510344626394b8e3909:1748145066,2c5db5da6c4f05103dd42346965f14ab:-162694655,d22db5da584f0510a8ce01a7be4d957c:689668793,b8acf99ab24f0510d9929add8cf18c03:1448527534,991cb99a744f0510e0a3369efba577b4:-107257113,a86b315acd4f0510cb240be057318297:-771476144,86fa355a414f0510fe517bcb720d8aca:49023477</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 09:02:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>0f0a4f6269b54bb283529b9794410129</sys_id>
+        <sys_metadata>a6ea395a874f05109536ca67dabb351e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Numeric Slider</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_a6ea395a874f05109536ca67dabb351e</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_a6ea395a874f05109536ca67dabb351e">8c8df99a874f05109536ca67dabb3509</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 09:02:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
