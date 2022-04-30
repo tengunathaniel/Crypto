@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="Bootstrap 5">0acfe8a6870b45109536ca67dabb357b</sp_dependency>
+        <sp_widget display_value="Numeric Slider">ca8ab15a874f05109536ca67dabb3557</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 20:45:27</sys_created_on>
+        <sys_id>74efe0a6870b45109536ca67dabb3549</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bootstrap 5.Numeric Slider</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_74efe0a6870b45109536ca67dabb3549</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 20:45:27</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

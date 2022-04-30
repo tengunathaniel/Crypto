@@ -9,34 +9,34 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <order>1</order>
+        <order>2</order>
         <roles/>
         <sc_cat_item/>
         <sc_category/>
         <short_description>Browse and search for articles, rate or submit feedback</short_description>
         <size>md</size>
-        <sp_column display_value="2">6d88edc1874701109536ca67dabb354b</sp_column>
+        <sp_column display_value="1">51d009e6874b45109536ca67dabb354b</sp_column>
         <sp_page display_value="kb_view">db9fcab847101200ba13a5554ee490cf</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-22 09:02:02</sys_created_on>
         <sys_id>2d88edc1874701109536ca67dabb3566</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Knowledge Base</sys_name>
         <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
         <sys_update_name>sp_instance_link_2d88edc1874701109536ca67dabb3566</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-22 09:21:16</sys_updated_on>
+        <sys_updated_on>2022-04-26 22:00:50</sys_updated_on>
         <title>Knowledge Base</title>
         <type>page</type>
         <url/>
         <widget_parameters><![CDATA[{
 	"link_template": {
-		"value": "Circle Icon",
-		"displayValue": "Circle Icon"
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
 	}
 }]]></widget_parameters>
     </sp_instance_link>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base">
+    <m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
+        <order>100</order>
+        <sp_portal display_value="To The Moon">d8cf99c9870701109536ca67dabb3598</sp_portal>
+        <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 21:26:09</sys_created_on>
+        <sys_id>f8397cee870b45109536ca67dabb356c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT.Cryptocurrencies</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>m2m_sp_portal_knowledge_base_f8397cee870b45109536ca67dabb356c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 21:26:09</sys_updated_on>
+    </m2m_sp_portal_knowledge_base>
+</record_update>

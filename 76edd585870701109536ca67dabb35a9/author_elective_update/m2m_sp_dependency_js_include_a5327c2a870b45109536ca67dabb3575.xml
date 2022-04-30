@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="DELETE">
+        <order>100</order>
+        <sp_dependency display_value="Bootstrap 5">0acfe8a6870b45109536ca67dabb357b</sp_dependency>
+        <sp_js_include display_value="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js&quot; integrity=&quot;sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p&quot; crossorigin=&quot;anonymous&quot;">c902fc2a870b45109536ca67dabb35d3</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 20:55:37</sys_created_on>
+        <sys_id>a5327c2a870b45109536ca67dabb3575</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bootstrap 5.https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_a5327c2a870b45109536ca67dabb3575</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 20:55:37</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>m2m_sp_dependency_js_include_a5327c2a870b45109536ca67dabb3575</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include"><m2m_sp_dependency_js_include action="INSERT_OR_UPDATE"><order>100</order><sp_dependency display_value="Bootstrap 5">0acfe8a6870b45109536ca67dabb357b</sp_dependency><sp_js_include display_value="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js&quot; integrity=&quot;sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p&quot; crossorigin=&quot;anonymous&quot;">c902fc2a870b45109536ca67dabb35d3</sp_js_include><sys_class_name>m2m_sp_dependency_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-26 20:55:37</sys_created_on><sys_id>a5327c2a870b45109536ca67dabb3575</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bootstrap 5.https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"</sys_name><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>m2m_sp_dependency_js_include_a5327c2a870b45109536ca67dabb3575</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-26 20:55:37</sys_updated_on></m2m_sp_dependency_js_include></record_update>]]></payload>
+        <payload_hash>266501383</payload_hash>
+        <record_name>Bootstrap 5.https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity=</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 20:55:37</sys_created_on>
+        <sys_id>2d327c2a870b45109536ca67dabb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18067a87f6b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 20:55:37</sys_updated_on>
+        <type>Dependency JS Includes</type>
+        <update_guid>65327c2a260b45103fb796730cd2bc77</update_guid>
+        <update_guid_history>65327c2a260b45103fb796730cd2bc77:266501383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bootstrap 5.https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundl">1910003a878301109536ca67dabb35c1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 11:55:05</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_js_include">m2m_sp_dependency_js_include</sys_db_object>
+        <sys_id>21bd7c2285a44f8491a766d8c5c210e4</sys_id>
+        <sys_metadata>a5327c2a870b45109536ca67dabb3575</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bootstrap 5.https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>m2m_sp_dependency_js_include_a5327c2a870b45109536ca67dabb3575</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_js_include_a5327c2a870b45109536ca67dabb3575">2d327c2a870b45109536ca67dabb3577</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 11:55:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

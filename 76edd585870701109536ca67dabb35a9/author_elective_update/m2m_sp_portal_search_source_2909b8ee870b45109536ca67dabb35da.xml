@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="DELETE">
+        <order>100</order>
+        <sp_portal display_value="Cryptocurrencies">d8cf99c9870701109536ca67dabb3598</sp_portal>
+        <sp_search_source display_value="Links">e7cb8b25dba46300cc3cdfea5e96190d</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 21:25:23</sys_created_on>
+        <sys_id>2909b8ee870b45109536ca67dabb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cryptocurrencies.Links</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_2909b8ee870b45109536ca67dabb35da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 21:25:23</sys_updated_on>
+    </m2m_sp_portal_search_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>m2m_sp_portal_search_source_2909b8ee870b45109536ca67dabb35da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source"><m2m_sp_portal_search_source action="INSERT_OR_UPDATE"><order>100</order><sp_portal display_value="Cryptocurrencies">d8cf99c9870701109536ca67dabb3598</sp_portal><sp_search_source display_value="Links">e7cb8b25dba46300cc3cdfea5e96190d</sp_search_source><sys_class_name>m2m_sp_portal_search_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-26 21:25:23</sys_created_on><sys_id>2909b8ee870b45109536ca67dabb35da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cryptocurrencies.Links</sys_name><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>m2m_sp_portal_search_source_2909b8ee870b45109536ca67dabb35da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-26 21:25:23</sys_updated_on></m2m_sp_portal_search_source></record_update>]]></payload>
+        <payload_hash>-1965689617</payload_hash>
+        <record_name>Cryptocurrencies.Links</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 21:25:23</sys_created_on>
+        <sys_id>2509b8ee870b45109536ca67dabb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18067c3bdee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 21:25:23</sys_updated_on>
+        <type>Search Source</type>
+        <update_guid>6d09b8eef50b45104988b7992e4a78db</update_guid>
+        <update_guid_history>6d09b8eef50b45104988b7992e4a78db:-1965689617</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cryptocurrencies.Links">f860407a878301109536ca67dabb3591</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-27 11:56:25</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_search_source">m2m_sp_portal_search_source</sys_db_object>
+        <sys_id>506cda9ec1b14fc4a7066e01b22f8d04</sys_id>
+        <sys_metadata>2909b8ee870b45109536ca67dabb35da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cryptocurrencies.Links</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_search_source_2909b8ee870b45109536ca67dabb35da</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_search_source_2909b8ee870b45109536ca67dabb35da">2509b8ee870b45109536ca67dabb35dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 11:56:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

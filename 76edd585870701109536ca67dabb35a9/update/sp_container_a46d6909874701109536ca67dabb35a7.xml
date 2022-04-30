@@ -9,21 +9,21 @@
         <name>CryptoHome Page - Container 1</name>
         <order>1</order>
         <sp_page display_value="crypto_home">e188edc1874701109536ca67dabb3502</sp_page>
-        <subheader>true</subheader>
+        <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-22 09:23:15</sys_created_on>
         <sys_id>a46d6909874701109536ca67dabb35a7</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>CryptoHome Page - Container 1</sys_name>
         <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
         <sys_update_name>sp_container_a46d6909874701109536ca67dabb35a7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-22 09:28:47</sys_updated_on>
+        <sys_updated_on>2022-04-26 22:04:06</sys_updated_on>
         <title/>
-        <width>container</width>
+        <width>container-fluid</width>
     </sp_container>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#9627d</average_image_color>

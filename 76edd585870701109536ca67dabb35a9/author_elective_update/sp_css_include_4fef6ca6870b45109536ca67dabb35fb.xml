@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="DELETE">
+        <name>bootstrap.min.css 5</name>
+        <source>url</source>
+        <sp_css display_value="bootstrap.min.css 5">9fffeca6870b45109536ca67dabb3518</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 20:46:24</sys_created_on>
+        <sys_id>4fef6ca6870b45109536ca67dabb35fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>bootstrap.min.css 5</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sp_css_include_4fef6ca6870b45109536ca67dabb35fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 21:09:39</sys_updated_on>
+        <url>https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css</url>
+    </sp_css_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sp_css_include_4fef6ca6870b45109536ca67dabb35fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>bootstrap.min.css 5</name><source>url</source><sp_css display_value="bootstrap.min.css 5">9fffeca6870b45109536ca67dabb3518</sp_css><sys_class_name>sp_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-26 20:46:24</sys_created_on><sys_id>4fef6ca6870b45109536ca67dabb35fb</sys_id><sys_mod_count>2</sys_mod_count><sys_name>bootstrap.min.css 5</sys_name><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>sp_css_include_4fef6ca6870b45109536ca67dabb35fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-26 21:09:39</sys_updated_on><url>https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css</url></sp_css_include></record_update>]]></payload>
+        <payload_hash>-36094645</payload_hash>
+        <record_name>bootstrap.min.css 5</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 21:09:39</sys_created_on>
+        <sys_id>0765302e870b45109536ca67dabb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18067b557b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 21:09:39</sys_updated_on>
+        <type>CSS Include</type>
+        <update_guid>0f65302e020b45109d1730a56a9d4efe</update_guid>
+        <update_guid_history>0f65302e020b45109d1730a56a9d4efe:-36094645,d11578aaf90b4510fffefc63802577d4:920410637,ae1030e6120b45109d1b930ea401fed1:-69175223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="bootstrap.min.css 5">c775342e870b45109536ca67dabb35ff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 21:09:55</sys_created_on>
+        <sys_db_object display_value="" name="sp_css_include">sp_css_include</sys_db_object>
+        <sys_id>504fd51ae38b47dc86715b25a9258310</sys_id>
+        <sys_metadata>4fef6ca6870b45109536ca67dabb35fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bootstrap.min.css 5</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sp_css_include_4fef6ca6870b45109536ca67dabb35fb</sys_update_name>
+        <sys_update_version display_value="sp_css_include_4fef6ca6870b45109536ca67dabb35fb">0765302e870b45109536ca67dabb35ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 21:09:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
