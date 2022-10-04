@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"data":{
+		"user_name":"Dominik"
+	}
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>crypto_header_v2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Crypto Header v2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 11:04:24</sys_created_on>
+        <sys_id>d17745f9872301109536ca67dabb357f</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>Crypto Header v2</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sp_widget_d17745f9872301109536ca67dabb357f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 15:27:14</sys_updated_on>
+        <template><![CDATA[<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item active">
+                  <!-- ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"><span ng-bind="portal.title" -->
+                    <a class="navbar-brand"><span ng-bind="portal.title"></span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+              	<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Welcome {{data.user_name}}</a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sp_widget_d17745f9872301109536ca67dabb357f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data&gt;{
+	"data":{
+		"user_name":"Dominik"
+	}
+}&lt;/demo_data&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;crypto_header_v2&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Crypto Header v2&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-19 11:04:24&lt;/sys_created_on&gt;&lt;sys_id&gt;d17745f9872301109536ca67dabb357f&lt;/sys_id&gt;&lt;sys_mod_count&gt;47&lt;/sys_mod_count&gt;&lt;sys_name&gt;Crypto Header v2&lt;/sys_name&gt;&lt;sys_package display_value="Crypto" source="x_364029_crypto"&gt;76edd585870701109536ca67dabb35a9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Crypto"&gt;76edd585870701109536ca67dabb35a9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_d17745f9872301109536ca67dabb357f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-19 15:27:14&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;nav class="navbar navbar-expand-md navbar-dark bg-dark"&gt;
+    &lt;div class="container-fluid"&gt;
+        &lt;div class="navbar-header"&gt;
+            &lt;ul class="navbar-nav me-auto"&gt;
+                &lt;li class="nav-item active"&gt;
+                  &lt;!-- ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"&gt;&lt;span ng-bind="portal.title" --&gt;
+                    &lt;a class="navbar-brand"&gt;&lt;span ng-bind="portal.title"&gt;&lt;/span&gt;&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class="navbar-collapse"&gt;
+            &lt;ul class="navbar-nav ms-auto"&gt;
+              &lt;li class="nav-item"&gt;
+              	&lt;a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"&gt;Welcome {{data.user_name}}&lt;/a&gt;
+              &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#"&gt;Profile&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+                &lt;/li&gt;
+               &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+                &lt;/li&gt;
+               &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+                &lt;/li&gt;
+               &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1582880650</payload_hash>
+        <record_name>Crypto Header v2</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 15:27:15</sys_created_on>
+        <sys_id>e39382f1872701109536ca67dabb35b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180dcee20560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 15:27:15</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>eb9382f1c1270110c6eebc2ac1b524af</update_guid>
+        <update_guid_history>eb9382f1c1270110c6eebc2ac1b524af:1582880650,e09342f1532701102c32423bc573fbba:-1797234490,93e8fd3923e301107834e7b507dbcb84:670077604,61e87d39ace301101b2e01755a3ddc19:-631791986,afd8b179dce301101550c554f57e2c50:670077604,96a871394ae30110696f76e173c30419:-512552836,49887d39e7e30110e774d309a1ebc40e:299257675,a97831f578e3011002e0bb3b75592208:160794009,e8483139a2e3011094a484a250750ac9:-560591305,0b85a1f10ea3011001427f4808d39faf:-993991967,5375edb5c0a3011055e988c680c0b9d4:-1624912338,0a84a1b50ba30110865e2b5d1c336f5e:-799411725,5e142d75d3a301106c034fd884ab6d4e:2043223632,abb36175fba30110444a9b4847ad050f:-1713040335,ea83257561a30110bb9d032635dc3483:201159119,fd7365f1fca30110857e0f96e8682559:-1713040335,f24365f148a301106ea08aecc790db7f:894601608,41332d359ea301108c2e483094ebe67f:1676959627,9ff229b114a301103eaf42997e5431d5:-948760333,a5e26135d0a301100ab54b4332c5f444:1921085641,21c269356ba301106040bb336d832910:1221157700,3832a1f11ba30110d492bf9dd9f2fe7b:-611113700,bfa169f16ca301100510f412e4ad77b5:1028529121,34a1e1f1e7a30110da826951224ca821:1132348321,1c6161f116a301101a4a4f433f266f7a:-565353754,f15125f194a30110eb90b1361e024ccc:1897476514,0731e1f168a30110488aa0f41ec0c30d:1909468233,5031a1f126a3011027e9ae25c632b769:-2089734203,54212139e76301100983400775d3b518:955366422,f701a5b119a3011028d24c03d32628ba:341017182,09e065f5c2630110eb4ca87ea7673042:20362061,3ab0697144a3011030b54c18fa173f44:197965768,0c9029b152a301108f30064b1b5552e3:-303840036,cb80a5b1bba30110959ac9b63ff9852f:-1494121744,2d6021b113a301102441371a2dd7a1be:-2037471585,ea502d710aa30110db519d6cc9585486:-177765204,445065b14da30110065e841ca0a3ec4c:1707235595,93bf95b55d63011025dd96ccad996966:2124336809,45bf11394a630110ac1c73d1d8b1e853:1707235595,96afd9718fa30110d969335e9ffc20ae:-1349690891,8f7f117919630110f81c579346651f29:1707235595,2b6f1971a9a30110b9e1f87f50be4b08:2141770482,a3069179d16301102d0b51a39ea775dc:-1055054846,17d4d5b5a1630110cec8a24d0ab989b4:-673084594,81c4113954630110899c8236da891d21:4866916,45e745f92f230110ae13967ce8b47042:537192330,d6c789f9612301108ffd23b4b917d530:-224176645,dd7745f99023011084782a107e50cf81:-644962203</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Crypto Header v2">25454e35872701109536ca67dabb353c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 15:34:29</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>627334d5a91844a0b96c06ce650ed240</sys_id>
+        <sys_metadata>d17745f9872301109536ca67dabb357f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Crypto Header v2</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sp_widget_d17745f9872301109536ca67dabb357f</sys_update_name>
+        <sys_update_version display_value="sp_widget_d17745f9872301109536ca67dabb357f">e39382f1872701109536ca67dabb35b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 15:34:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

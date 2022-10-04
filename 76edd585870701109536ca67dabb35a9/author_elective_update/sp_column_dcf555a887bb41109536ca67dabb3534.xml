@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">94f555a887bb41109536ca67dabb3532</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-28 01:10:58</sys_created_on>
+        <sys_id>dcf555a887bb41109536ca67dabb3534</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sp_column_dcf555a887bb41109536ca67dabb3534</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-28 01:10:58</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sp_column_dcf555a887bb41109536ca67dabb3534</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">94f555a887bb41109536ca67dabb3532</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-28 01:10:58</sys_created_on><sys_id>dcf555a887bb41109536ca67dabb3534</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>sp_column_dcf555a887bb41109536ca67dabb3534</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-28 01:10:58</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1770888491</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-28 01:10:58</sys_created_on>
+        <sys_id>50f555a887bb41109536ca67dabb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18108376bea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-28 01:10:58</sys_updated_on>
+        <type>Column</type>
+        <update_guid>98f555a8a8bb41109a62961983cedc36</update_guid>
+        <update_guid_history>98f555a8a8bb41109a62961983cedc36:1770888491</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">31bef4b4879491109536ca67dabb35a7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 14:39:22</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>0524dbe216114c1e82c9ae5611ef4b29</sys_id>
+        <sys_metadata>dcf555a887bb41109536ca67dabb3534</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sp_column_dcf555a887bb41109536ca67dabb3534</sys_update_name>
+        <sys_update_version display_value="sp_column_dcf555a887bb41109536ca67dabb3534">50f555a887bb41109536ca67dabb3537</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-22 14:39:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

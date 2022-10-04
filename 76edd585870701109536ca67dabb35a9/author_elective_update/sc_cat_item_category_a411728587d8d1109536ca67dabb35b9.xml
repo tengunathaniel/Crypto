@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Test Catalog item">c7473694871051109536ca67dabb3559</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-23 17:37:28</sys_created_on>
+        <sys_id>a411728587d8d1109536ca67dabb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Test Catalog item</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sc_cat_item_category_a411728587d8d1109536ca67dabb35b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 17:37:28</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sc_cat_item_category_a411728587d8d1109536ca67dabb35b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Test Catalog item">c7473694871051109536ca67dabb3559</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-23 17:37:28</sys_created_on><sys_id>a411728587d8d1109536ca67dabb35b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Test Catalog item</sys_name><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>sc_cat_item_category_a411728587d8d1109536ca67dabb35b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-23 17:37:28</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-772402685</payload_hash>
+        <record_name>Services.Test Catalog item</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-23 17:37:28</sys_created_on>
+        <sys_id>a811768587d8d1109536ca67dabb3516</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18191a3ef720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 17:37:28</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>e01176858dd8d110a6df72b784f8be16</update_guid>
+        <update_guid_history>e01176858dd8d110a6df72b784f8be16:-772402685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Test Catalog item">4a603309872011109536ca67dabb3560</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-06 08:29:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>74fb31af14194c12a95d82342784f341</sys_id>
+        <sys_metadata>a411728587d8d1109536ca67dabb35b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Test Catalog item</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_a411728587d8d1109536ca67dabb35b9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_a411728587d8d1109536ca67dabb35b9">a811768587d8d1109536ca67dabb3516</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-06 08:29:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

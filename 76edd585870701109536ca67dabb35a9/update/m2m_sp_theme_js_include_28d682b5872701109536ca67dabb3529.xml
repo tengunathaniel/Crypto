@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_js_include">
+    <m2m_sp_theme_js_include action="INSERT_OR_UPDATE">
+        <order/>
+        <sp_js_include display_value="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">8161d935876301109536ca67dabb3599</sp_js_include>
+        <sp_theme display_value="TTM Theme">a5460e75872701109536ca67dabb35b1</sp_theme>
+        <sys_class_name>m2m_sp_theme_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 15:41:15</sys_created_on>
+        <sys_id>28d682b5872701109536ca67dabb3529</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>/script/bootstrap.bundle.min.js.TTM Theme</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>m2m_sp_theme_js_include_28d682b5872701109536ca67dabb3529</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 15:41:15</sys_updated_on>
+    </m2m_sp_theme_js_include>
+</record_update>

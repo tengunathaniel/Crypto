@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="Bootstrap 5">0acfe8a6870b45109536ca67dabb357b</sp_dependency>
+        <sp_widget display_value="Numeric Slider">ca8ab15a874f05109536ca67dabb3557</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 20:45:27</sys_created_on>
+        <sys_id>74efe0a6870b45109536ca67dabb3549</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bootstrap 5.Numeric Slider</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_74efe0a6870b45109536ca67dabb3549</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 20:45:27</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>m2m_sp_widget_dependency_74efe0a6870b45109536ca67dabb3549</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="Bootstrap 5">0acfe8a6870b45109536ca67dabb357b</sp_dependency><sp_widget display_value="Numeric Slider">ca8ab15a874f05109536ca67dabb3557</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-26 20:45:27</sys_created_on><sys_id>74efe0a6870b45109536ca67dabb3549</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bootstrap 5.Numeric Slider</sys_name><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>m2m_sp_widget_dependency_74efe0a6870b45109536ca67dabb3549</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-26 20:45:27</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>-180008900</payload_hash>
+        <record_name>Bootstrap 5.Numeric Slider</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 20:45:27</sys_created_on>
+        <sys_id>3cefe0a6870b45109536ca67dabb354b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180679f30ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 20:45:27</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>74efe0a6f30b4510d56c46eb923e1d4b</update_guid>
+        <update_guid_history>74efe0a6f30b4510d56c46eb923e1d4b:-180008900</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bootstrap 5.Numeric Slider">f688a345876781109536ca67dabb35a1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-17 14:52:46</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>614aab7b1fdc4d40aef747658e45c2c9</sys_id>
+        <sys_metadata>74efe0a6870b45109536ca67dabb3549</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bootstrap 5.Numeric Slider</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_74efe0a6870b45109536ca67dabb3549</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_74efe0a6870b45109536ca67dabb3549">3cefe0a6870b45109536ca67dabb354b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-17 14:52:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

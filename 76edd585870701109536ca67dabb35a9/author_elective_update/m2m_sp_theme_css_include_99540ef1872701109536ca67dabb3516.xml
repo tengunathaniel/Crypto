@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include">
+    <m2m_sp_theme_css_include action="DELETE">
+        <order/>
+        <sp_css_include display_value="/bootstrap.min.css 5">1b85bcaa870b45109536ca67dabb35b3</sp_css_include>
+        <sp_theme display_value="TTM Theme">24465811872b81109536ca67dabb35e9</sp_theme>
+        <sys_class_name>m2m_sp_theme_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 15:30:22</sys_created_on>
+        <sys_id>99540ef1872701109536ca67dabb3516</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>/bootstrap.min.css 5.TTM Theme</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>m2m_sp_theme_css_include_99540ef1872701109536ca67dabb3516</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 15:30:22</sys_updated_on>
+    </m2m_sp_theme_css_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>m2m_sp_theme_css_include_99540ef1872701109536ca67dabb3516</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order/><sp_css_include display_value="/bootstrap.min.css 5">1b85bcaa870b45109536ca67dabb35b3</sp_css_include><sp_theme display_value="TTM Theme">24465811872b81109536ca67dabb35e9</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-19 15:30:22</sys_created_on><sys_id>99540ef1872701109536ca67dabb3516</sys_id><sys_mod_count>0</sys_mod_count><sys_name>/bootstrap.min.css 5.TTM Theme</sys_name><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>m2m_sp_theme_css_include_99540ef1872701109536ca67dabb3516</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-19 15:30:22</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+        <payload_hash>805512967</payload_hash>
+        <record_name>/bootstrap.min.css 5.TTM Theme</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 15:30:22</sys_created_on>
+        <sys_id>95540ef1872701109536ca67dabb3519</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180dcf0fd4f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 15:30:22</sys_updated_on>
+        <type>Stylesheets</type>
+        <update_guid>dd540ef1ac270110236aed04b4aa4918</update_guid>
+        <update_guid_history>dd540ef1ac270110236aed04b4aa4918:805512967</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="/bootstrap.min.css 5.TTM Theme">ddb54675872701109536ca67dabb355f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 15:36:22</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_theme_css_include">m2m_sp_theme_css_include</sys_db_object>
+        <sys_id>336b5290840441319d75f64b6046b799</sys_id>
+        <sys_metadata>99540ef1872701109536ca67dabb3516</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>/bootstrap.min.css 5.TTM Theme</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>m2m_sp_theme_css_include_99540ef1872701109536ca67dabb3516</sys_update_name>
+        <sys_update_version display_value="m2m_sp_theme_css_include_99540ef1872701109536ca67dabb3516">95540ef1872701109536ca67dabb3519</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 15:36:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

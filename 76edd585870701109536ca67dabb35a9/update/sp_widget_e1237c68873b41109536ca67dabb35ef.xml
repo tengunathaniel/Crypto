@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function ($scope) {
+	/* widget controller */
+	var c = this;
+	var currTask;
+	var currClass;
+
+	var maxLevels = 4;
+	var colType, startUpColType;
+	var na_arr, index;
+	var titleDiv,titleArr;
+	var descriptionDiv, descriptionArr;
+
+	// task listeners
+	$scope.dragStart = function (event) {
+
+		startUpColType = findColType(event.target).toString();
+		c.draggedNode = event.target.id;
+
+		currTask = event.target;
+		currClass = event.target.className;
+		event.target.classList.add('hold');
+
+		requestAnimationFrame(function () {
+			currTask.className = 'invisible';
+		}, 0); 
+	};
+
+	$scope.dragEnd = function (event) {
+		event.target.className = 'task';
+	};
+
+	// content listeners 
+	$scope.dragOver = function (event) {
+		event.preventDefault();
+	};
+
+	$scope.dragEnter = function (event) {
+
+		if(event.target.classList.contains('empty')){
+			event.preventDefault();
+			event.target.classList.add('hovered');
+		}
+		/*
+		debugger;
+		titleDiv = document.getElementsByClassName('task-header');
+		descriptionDiv = document.getElementsByClassName('task-description');
+
+		titleArr = [].slice.call(titleDiv);
+		descriptionArr = [].slice.call(descriptionDiv); 
+
+		titleArr.forEach(function(e){
+			e.classList.remove('hovered');
+			e.classList.add('disabled');
+			});
+
+			descriptionArr.forEach(function(e){
+				e.classList.remove('hovered');
+					e.classList.add('disabled');
+			}); */
+	};
+
+	$scope.dragLeave = function (event) {
+		if(event.target.classList.contains('empty')){
+			event.target.className = 'empty';
+		}
+	};
+
+	$scope.dragDrop = function (event) {
+		if (event.stopPropagation) {
+			event.stopPropagation(); // stops the browser from redirecting.
+		}
+
+		if(!event.target.classList.contains('empty')){
+			return;
+		}
+
+		colType = findColType(event.target).toString();
+		na_arr = c.data.not_assigned;
+
+		if(colType == 'question1' && !startUpColType.includes(colType)){
+			event.target.className = 'empty';
+			event.target.append(currTask);
+			c.data.question1 = na_arr[parseInt(c.draggedNode)];
+
+			index = na_arr.indexOf(na_arr[parseInt(c.draggedNode)]);
+			if (index > -1) {
+				na_arr.splice(index, 1); // 2nd parameter means remove one item only
+			}
+		} else if (colType == 'question2'&& !startUpColType.includes(colType)) {
+			event.target.className = 'empty';
+			event.target.append(currTask);
+			c.data.question2 = na_arr[parseInt(c.draggedNode)];
+
+			index = na_arr.indexOf(na_arr[parseInt(c.draggedNode)]);
+			if (index > -1) {
+				na_arr.splice(index, 1); // 2nd parameter means remove one item only
+			}
+		} else if (colType == 'na_id'&& !startUpColType.includes(colType)) {
+			event.target.className = 'empty';
+			event.target.append(currTask);
+
+			if(startUpColType=='question1'){
+				na_arr.push(c.data.question1);
+				c.data.question1 = '';
+			} else {
+				na_arr.push(c.data.question2);
+				c.data.question2 = '';
+			}
+		} else if(startUpColType==colType){
+			event.target.className = 'empty';
+		}
+	};
+
+	function findColType(element) {
+		return c.checkElement(element, 1);
+	}
+
+	c.checkElement = function (element, level) {
+		if (!element) {
+			return null;
+		}
+		if (level >= maxLevels) {
+			return null;
+		}
+		if (element.classList && element.classList.contains('empty')) {
+			return element.id;
+		}
+		return c.checkElement(element.parentElement, level++);
+	};
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+.empty {
+  display: inline-block;
+  width: 160px;
+  height: 200px;
+  margin: 10px;
+  background-color: white;
+  border: 3px gray solid;
+}
+
+.task {
+  position: relative;
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+}
+
+.hold {
+  border: solid #ccc 3px;
+}
+
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+}
+
+.invisible {
+  display: none; 
+}
+
+
+#taskboard-container {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--taskboard-border-color);
+  height: 300px;
+}
+
+.task-col {
+  overflow-y: auto;
+  display:flex;
+  flex-direction: column;
+}
+
+#questions .empty {
+  height: 46px;
+}
+
+
+#statements .empty {
+  height: auto;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>clonednd</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>cloneDND</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var not_assigned = [];
+	var statements = [];
+	var question1,question2;
+	var tmp;
+
+	var grTasksNA = new GlideRecord('task');
+	grTasksNA.setLimit(2);
+	grTasksNA.query();
+
+	while(grTasksNA.next()){
+		tmp = {
+			title : grTasksNA.getValue('short_description'),
+			description : grTasksNA.getValue('description')
+		};
+
+		not_assigned.push(tmp);
+	}
+
+	var gr = new GlideRecord('task');
+	gr.setLimit(2);
+	gr.orderBy('number');
+	gr.query();
+
+	while(gr.next()){
+		tmp = {
+			title : gr.getValue('short_description'),
+			description : gr.getValue('description')
+		};
+
+		statements.push(tmp);
+	}
+
+	data.not_assigned = not_assigned;
+	data.question1 = question1;
+	data.question2 = question2;
+	data.statements = statements;
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-27 22:38:57</sys_created_on>
+        <sys_id>e1237c68873b41109536ca67dabb35ef</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>cloneDND</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sp_widget_e1237c68873b41109536ca67dabb35ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-28 00:17:31</sys_updated_on>
+        <template><![CDATA[<div id="drag-n-drop">
+  <script>
+    function getScope() {
+      return angular.element('#drag-n-drop').scope();
+    }
+
+  </script>
+
+  <!-- tasks not assigned -->
+  <div class="task-col" id="not-assigned">
+    <div class="empty" ondragenter="getScope().dragEnter(event)" ondragleave="getScope().dragLeave(event)"
+         ondragover="getScope().dragOver(event)" ondrop="getScope().dragDrop(event)" id="na_id">
+      <div class='task' ng-repeat="na in c.data.not_assigned" id="{{$index}}" draggable="true"
+           ondragstart="getScope().dragStart(event)" ondragend="getScope().dragEnd(event)">
+        <div class="task-header">
+          {{na.title}}
+        </div>
+        <div class="task-description">
+          {{na.description}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- questions / statements container -->
+  <div id="taskboard-container">
+
+    <!-- questions -->
+    <div class="task-col" id="questions">
+      <div class="empty" id="question1"
+           ondragenter="getScope().dragEnter(event)" ondragleave="getScope().dragLeave(event)"
+           ondragover="getScope().dragOver(event)" ondrop="getScope().dragDrop(event)">
+      </div>
+
+
+      <div class="empty" id="question2"
+           ondragenter="getScope().dragEnter(event)" ondragleave="getScope().dragLeave(event)"
+           ondragover="getScope().dragOver(event)" ondrop="getScope().dragDrop(event)">
+      </div>
+    </div>
+
+
+    <!-- statements -->
+    <div class="task-col" id="statements">
+      <div class="empty" ng-repeat="statement in c.data.statements" id="{{$index}}">
+        <div class="task-header">
+          {{statement.title}}
+        </div>
+        <div class="task-description">
+          {{statement.description}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

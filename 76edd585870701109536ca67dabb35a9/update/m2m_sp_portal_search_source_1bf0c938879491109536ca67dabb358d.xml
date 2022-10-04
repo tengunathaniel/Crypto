@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_portal display_value="To The Moon">d8cf99c9870701109536ca67dabb3598</sp_portal>
+        <sp_search_source display_value="Knowledge Bases">c6170ae86721220023c82e08f585efe6</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 14:49:18</sys_created_on>
+        <sys_id>1bf0c938879491109536ca67dabb358d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>To The Moon.Knowledge Bases</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_1bf0c938879491109536ca67dabb358d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-22 14:49:18</sys_updated_on>
+    </m2m_sp_portal_search_source>
+</record_update>

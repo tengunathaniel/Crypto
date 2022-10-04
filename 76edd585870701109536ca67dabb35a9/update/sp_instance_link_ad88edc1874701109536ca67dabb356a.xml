@@ -9,29 +9,29 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <order>1</order>
+        <order>3</order>
         <roles/>
         <sc_cat_item/>
         <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
         <short_description>Contact support to make a request, or report a problem</short_description>
         <size>md</size>
-        <sp_column display_value="2">23f0c9e6874b45109536ca67dabb3584</sp_column>
-        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_column display_value="2">ddd009e6874b45109536ca67dabb354c</sp_column>
+        <sp_page display_value="kb_search">79e23a7ddbd6220099f93691f0b8f53c</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-22 09:02:02</sys_created_on>
         <sys_id>ad88edc1874701109536ca67dabb356a</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Get Help</sys_name>
         <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
         <sys_update_name>sp_instance_link_ad88edc1874701109536ca67dabb356a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-26 22:00:21</sys_updated_on>
+        <sys_updated_on>2022-06-22 14:52:56</sys_updated_on>
         <title>Get Help</title>
-        <type>sc_category</type>
+        <type>kb_category</type>
         <url/>
         <widget_parameters><![CDATA[{
 	"link_template": {

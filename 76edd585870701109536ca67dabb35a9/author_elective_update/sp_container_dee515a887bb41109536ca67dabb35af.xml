@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>CryptoHome Page - Container 5</name>
+        <order>5</order>
+        <sp_page display_value="crypto_home">e188edc1874701109536ca67dabb3502</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-28 01:10:50</sys_created_on>
+        <sys_id>dee515a887bb41109536ca67dabb35af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CryptoHome Page - Container 5</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sp_container_dee515a887bb41109536ca67dabb35af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-28 01:10:50</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sp_container_dee515a887bb41109536ca67dabb35af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>CryptoHome Page - Container 5</name><order>5</order><sp_page display_value="crypto_home">e188edc1874701109536ca67dabb3502</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-28 01:10:50</sys_created_on><sys_id>dee515a887bb41109536ca67dabb35af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CryptoHome Page - Container 5</sys_name><sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package><sys_policy/><sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope><sys_update_name>sp_container_dee515a887bb41109536ca67dabb35af</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-28 01:10:50</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-500593562</payload_hash>
+        <record_name>CryptoHome Page - Container 5</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-28 01:10:51</sys_created_on>
+        <sys_id>1ae515a887bb41109536ca67dabb35b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18108374dbb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-28 01:10:51</sys_updated_on>
+        <type>Container</type>
+        <update_guid>52e515a834bb4110df96d5030df254b2</update_guid>
+        <update_guid_history>52e515a834bb4110df96d5030df254b2:-500593562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CryptoHome Page - Container 5">32be38b4879491109536ca67dabb3532</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 14:39:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0b715557c050477084470af5ebb68040</sys_id>
+        <sys_metadata>dee515a887bb41109536ca67dabb35af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CryptoHome Page - Container 5</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sp_container_dee515a887bb41109536ca67dabb35af</sys_update_name>
+        <sys_update_version display_value="sp_container_dee515a887bb41109536ca67dabb35af">1ae515a887bb41109536ca67dabb35b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-22 14:39:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

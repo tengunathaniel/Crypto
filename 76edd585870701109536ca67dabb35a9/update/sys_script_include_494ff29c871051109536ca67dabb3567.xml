@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_364029_crypto.testCatalogUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>testCatalogUtils</name>
+        <script><![CDATA[var testCatalogUtils = Class.create();
+testCatalogUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getUserData : function() {
+		var userSysId = this.getParameter("sysparm_usersysid");
+
+		var gr = new GlideRecord("sys_user");
+		gr.get(userSysId);
+
+		var obj = {
+			"email": gr.email.toString(),
+			"department": gr.department.sys_id.toString(),
+			"language": gr.preferred_language.toString()
+		};
+		
+		return JSON.stringify(obj);
+	},
+
+	type: 'testCatalogUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 10:45:27</sys_created_on>
+        <sys_id>494ff29c871051109536ca67dabb3567</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>testCatalogUtils</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sys_script_include_494ff29c871051109536ca67dabb3567</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 10:57:02</sys_updated_on>
+    </sys_script_include>
+</record_update>

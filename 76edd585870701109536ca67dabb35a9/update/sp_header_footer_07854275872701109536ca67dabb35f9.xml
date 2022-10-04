@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"data":{
+		"user_name":"Dominik"
+	}
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>crypto_h_v2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Crypto Header v2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 15:35:50</sys_created_on>
+        <sys_id>07854275872701109536ca67dabb35f9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Crypto Header v2</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sp_header_footer_07854275872701109536ca67dabb35f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 16:02:18</sys_updated_on>
+        <template><![CDATA[<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item active">
+                  <!-- ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"><span ng-bind="portal.title" -->
+                   <span ng-bind="portal.title"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+              	<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">{{data.user_name}}</a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<p>${portal.title}
+</p>]]></template>
+    </sp_header_footer>
+</record_update>

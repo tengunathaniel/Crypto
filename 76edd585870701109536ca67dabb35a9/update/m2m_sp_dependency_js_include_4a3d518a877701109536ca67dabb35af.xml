@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_dependency display_value="ngDraggable">040d510a877701109536ca67dabb3541</sp_dependency>
+        <sp_js_include display_value="ngDraggable.js">730ddd4a877701109536ca67dabb3554</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>andres.magnin</sys_created_by>
+        <sys_created_on>2022-06-01 17:33:39</sys_created_on>
+        <sys_id>4a3d518a877701109536ca67dabb35af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ngDragable.ngDraggable.js</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_4a3d518a877701109536ca67dabb35af</sys_update_name>
+        <sys_updated_by>andres.magnin</sys_updated_by>
+        <sys_updated_on>2022-06-01 17:33:39</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+</record_update>

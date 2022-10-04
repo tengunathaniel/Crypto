@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Polygon">60917e0587d8d1109536ca67dabb3585</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-23 17:39:55</sys_created_on>
+        <sys_id>10a17e8587d8d1109536ca67dabb351d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Crypto Variable Set.Polygon</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>io_set_item_10a17e8587d8d1109536ca67dabb351d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 17:39:55</sys_updated_on>
+        <variable_set display_value="Crypto Variable Set">77b8e745876781109536ca67dabb358f</variable_set>
+    </io_set_item>
+</record_update>

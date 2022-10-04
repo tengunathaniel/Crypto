@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function ($scope) {
+	/* widget controller */
+	var c = this;
+	var currTask;
+	var currClass;
+
+	var maxLevels = 4;
+	var colType, startUpColType;
+	var na_arr, index;
+
+	// task listeners
+	$scope.dragStart = function (event) {
+
+		startUpColType = findColType(event.target).toString();
+		c.draggedNode = event.target.id;
+
+		currTask = event.target;
+		currClass = event.target.className;
+		if(event.target.nodeName == 'DIV'){
+			event.target.classList.add('hold');
+		} else return;
+
+		requestAnimationFrame(function () {
+			currTask.className = 'invisible';
+		}, 0); 
+	};
+
+	$scope.dragEnd = function (event) {
+		event.target.className = 'task';
+	};
+
+	// content listeners 
+	$scope.dragOver = function (event) {
+		event.preventDefault();
+	};
+
+	$scope.dragEnter = function (event) {
+
+		if(event.target.classList.contains('empty')){
+			event.preventDefault();
+			event.target.classList.add('hovered');
+		}
+	};
+
+	$scope.dragLeave = function (event) {
+
+		if(event.target.classList.contains('empty')){
+			event.target.className = 'empty';
+		}
+	};
+
+	$scope.dragDrop = function (event) {
+
+		if (event.stopPropagation) {
+			event.stopPropagation(); // stops the browser from redirecting.
+		}
+
+		if(!event.target.classList.contains('empty')){
+			return;
+		}
+
+		colType = findColType(event.target).toString();
+		na_arr = c.data.not_assigned;
+
+		if(colType == 'question1' && !startUpColType.includes(colType)){
+			if(event.target.childElementCount == 0){
+				event.target.className = 'empty';
+				event.target.append(currTask);
+				c.data.question1 = na_arr[parseInt(c.draggedNode)];
+			} else {
+				event.target.className = 'empty';
+				return;
+			}
+			/*
+			index = na_arr.indexOf(na_arr[parseInt(c.draggedNode)]);
+			if (index > -1) {
+				na_arr.splice(index, 1); // 2nd parameter means remove one item only
+			} */
+		} else if (colType == 'question2'&& !startUpColType.includes(colType)) {
+			if(event.target.childElementCount == 0){
+				event.target.className = 'empty';
+				event.target.append(currTask);
+				c.data.question2 = na_arr[parseInt(c.draggedNode)];
+			} else {
+				event.target.className = 'empty';
+				return;
+			}
+			/*
+			index = na_arr.indexOf(na_arr[parseInt(c.draggedNode)]);
+			if (index > -1) {
+				na_arr.splice(index, 1); // 2nd parameter means remove one item only
+			} */
+		} else if (colType == 'na_id'&& !startUpColType.includes(colType)) {
+			event.target.className = 'empty';
+			event.target.append(currTask);
+
+			if(startUpColType=='question1'){
+				//na_arr.push(c.data.question1);
+				c.data.question1 = '';
+			} else {
+				//na_arr.push(c.data.question2);
+				c.data.question2 = '';
+			}
+		} else if(startUpColType==colType){
+			event.target.className = 'empty';
+		}
+	};
+
+	function findColType(element) {
+		return c.checkElement(element, 1);
+	}
+
+	c.checkElement = function (element, level) {
+		if (!element) {
+			return null;
+		}
+		if (level >= maxLevels) {
+			return null;
+		}
+		if (element.classList && element.classList.contains('empty')) {
+			return element.id;
+		}
+		return c.checkElement(element.parentElement, level++);
+	};
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>
+.empty {
+  display: inline-block;
+  width: 160px;
+  height: 100px;
+  margin: 10px;
+  background-color: white;
+  border: 3px gray solid;
+}
+
+.task {
+  position: relative;
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+}
+
+.hold {
+  border: solid #ccc 3px;
+}
+
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+}
+
+.invisible {
+  display: none; 
+}
+
+
+#taskboard-container {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  height: 300px;
+}
+
+.task-col {
+  overflow-y: auto;
+  display:flex;
+  flex-direction: column;
+}
+
+.task-header {
+  font-size: 16px;
+}
+
+.task-description {
+  font-size: 10px;
+}
+
+#questions .empty {
+  height: 50px;
+}
+
+
+#statements .empty {
+  height: 50px;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs display_value="Widgets">948bab53d721120023c84f80de61034e</docs>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>dnd</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Drag and drop</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+	var not_assigned = [];
+	not_assigned.push({"title":"Not Assigned Task 1","description":"NA description1"});
+	not_assigned.push({"title":"Not Assigned Task 2","description":"NA description2"});
+	
+
+	var questions = [null,null];
+	var question1;
+	var question2;
+
+	
+	var statements = [];
+	statements.push({"title":"Statement 1","description":"Statement description1"});
+	statements.push({"title":"Statement 2","description":"Statement description2"});
+	
+	data.not_assigned = not_assigned;
+	data.question1 = question1;
+	data.question2 = question2;
+	data.statements = statements;
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-27 11:47:49</sys_created_on>
+        <sys_id>b6fdd2d0873341109536ca67dabb35a1</sys_id>
+        <sys_mod_count>251</sys_mod_count>
+        <sys_name>Drag and drop</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sp_widget_b6fdd2d0873341109536ca67dabb35a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-01 12:15:51</sys_updated_on>
+        <template><![CDATA[<div id="drag-n-drop">
+  <script>
+    function getScope() {
+      return angular.element('#drag-n-drop').scope();
+    }
+
+  </script>
+  
+  <!-- tasks not assigned -->
+  <div class="task-col" id="not-assigned">
+     <h3 style="margin-left:10px" >Not Assigned</h3>
+    <div class="empty" ondragenter="getScope().dragEnter(event)" ondragleave="getScope().dragLeave(event)"
+         ondragover="getScope().dragOver(event)" ondrop="getScope().dragDrop(event)" id="na_id">
+      <div class='task' ng-repeat="na in c.data.not_assigned" id="{{$index}}" draggable="true"
+           ondragstart="getScope().dragStart(event)" ondragend="getScope().dragEnd(event)">
+        <div class="task-header">
+          {{na.title}}
+        </div>
+        <div class="task-description">
+          {{na.description}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- questions / statements container -->
+  <div id="taskboard-container">
+
+    <!-- questions -->
+    <div class="task-col" id="questions">
+      <h3 style="margin-left:10px">Questions</h3>
+      <div class="empty" id="question1"
+           ondragenter="getScope().dragEnter(event)" ondragleave="getScope().dragLeave(event)"
+           ondragover="getScope().dragOver(event)" ondrop="getScope().dragDrop(event)"></div>
+
+
+      <div class="empty" id="question2"
+           ondragenter="getScope().dragEnter(event)" ondragleave="getScope().dragLeave(event)"
+           ondragover="getScope().dragOver(event)" ondrop="getScope().dragDrop(event)"></div>
+    </div>
+
+
+    <!-- statements -->
+    <div class="task-col" id="statements">
+      <h3 style="margin-left:10px">Statements</h3>
+      <div class="empty" ng-repeat="statement in c.data.statements" id="{{$index}}">
+        <div class="task-header">
+          {{statement.title}}
+        </div>
+        <div class="task-description">
+          {{statement.description}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

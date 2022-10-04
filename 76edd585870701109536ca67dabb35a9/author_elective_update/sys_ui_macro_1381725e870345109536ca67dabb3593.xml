@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>Numeric Slider</name>
+        <scoped_name>x_364029_crypto_Numeric Slider</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 11:38:51</sys_created_on>
+        <sys_id>1381725e870345109536ca67dabb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Numeric Slider</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_update_name>sys_ui_macro_1381725e870345109536ca67dabb3593</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 11:38:51</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+			<form oninput="range1value.value = customRange1.valueAsNumber">
+				<div class="form-group">
+					<label for="customRange1" class="form-label">What part of currency you want to buy?</label>
+					<input type="range" class="form-range" min="0" max="1" step="0.01" id="customRange1" />
+						<output name="range1value" for="customRange1" >0.5</output>
+						</div>
+					</form>
+
+				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		</j:jelly>]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Crypto">76edd585870701109536ca67dabb35a9</application>
+        <file_path/>
+        <instance_id>e3535c76dbfe85104d2bac44d49619ae</instance_id>
+        <instance_name>dev126358</instance_name>
+        <name>sys_ui_macro_1381725e870345109536ca67dabb3593</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;Numeric Slider&lt;/name&gt;&lt;scoped_name&gt;x_364029_crypto_Numeric Slider&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-26 11:38:51&lt;/sys_created_on&gt;&lt;sys_id&gt;1381725e870345109536ca67dabb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Numeric Slider&lt;/sys_name&gt;&lt;sys_package display_value="Crypto" source="x_364029_crypto"&gt;76edd585870701109536ca67dabb35a9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Crypto"&gt;76edd585870701109536ca67dabb35a9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_1381725e870345109536ca67dabb3593&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-26 11:38:51&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+			&lt;form oninput="range1value.value = customRange1.valueAsNumber"&gt;
+				&lt;div class="form-group"&gt;
+					&lt;label for="customRange1" class="form-label"&gt;What part of currency you want to buy?&lt;/label&gt;
+					&lt;input type="range" class="form-range" min="0" max="1" step="0.01" id="customRange1" /&gt;
+						&lt;output name="range1value" for="customRange1" &gt;0.5&lt;/output&gt;
+						&lt;/div&gt;
+					&lt;/form&gt;
+
+				&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"&gt;&lt;/script&gt;
+		&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1612047824</payload_hash>
+        <record_name>Numeric Slider</record_name>
+        <reverted_from/>
+        <source>041e5149870701109536ca67dabb356f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-26 11:38:51</sys_created_on>
+        <sys_id>fdc2f29e870345109536ca67dabb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18065aac3180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-26 11:38:51</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>fdc2b65e5f034510cd0ab945dd61a901</update_guid>
+        <update_guid_history>fdc2b65e5f034510cd0ab945dd61a901:1612047824</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-17 14:52:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>5075463c1d814634a4d0f456dae7bbe9</sys_id>
+        <sys_metadata>1381725e870345109536ca67dabb3593</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Numeric Slider</sys_name>
+        <sys_package display_value="Crypto" source="x_364029_crypto">76edd585870701109536ca67dabb35a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Crypto">76edd585870701109536ca67dabb35a9</sys_scope>
+        <sys_scope_delete display_value="">538a5f78b08a4d58990f128393966b90</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_1381725e870345109536ca67dabb3593</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_1381725e870345109536ca67dabb3593">fdc2f29e870345109536ca67dabb35f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-17 14:52:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
